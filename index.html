@@ -16,42 +16,54 @@
 
 <body>
 
-    <div class="container-fluid">  
+  <div class="container-fluid">
     </br>
-        <div class="row text-center">        
-          <div class="col-1 col-sm-1 col-md-2 col-lg-3 col-xl-3"></div>       
-          <div style="background-color:#E0E0E0" class="jumbotron col-10 col-sm-10 col-md-8 col-lg-6 col-xl-6">
-            <h2>Tic Tac Toe</h2>
-            </br>
-            <h1><table id="tablero" class="table table-bordered table-inverse">            
-              <tbody>
-                <tr>
-                  <td id="c1">&nbsp</td>
-                  <td id="c2">&nbsp</td>
-                  <td id="c3">&nbsp</td>      
-                </tr>
-                <tr>
-                  <td id="c4">&nbsp</td>
-                  <td id="c5">&nbsp</td>
-                  <td id="c6">&nbsp</td>      
-                </tr>
-                <tr>
-                  <td id="c7">&nbsp</td>  
-                  <td id="c8">&nbsp</td>
-                  <td id="c9">&nbsp</td>      
-                </tr>   
-              </tbody>
-              </table></h1>
-          <h3 id="preguntaInicial">¿Con que fichas quieres jugar?<h3/></br>
-            <div class="row">
-              <div class="col-6" id="ceros"><button id="ceros" type="button" class="btn btn-info"><h3>O</h3></button></div>
-              <div class="col-6" id="equis"><button  type="button" class="btn btn-info"><h3>X</h3></button></div> 
+    <div class="row text-center">
+      <div class="col-1 col-sm-1 col-md-2 col-lg-3 col-xl-3"></div>
+      <div style="background-color:#E0E0E0" class="jumbotron col-10 col-sm-10 col-md-8 col-lg-6 col-xl-6">
+        <h2>Tic Tac Toe</h2>
+        </br>
+        <h1>
+          <table id="tablero" class="table table-bordered table-inverse">
+            <tbody>
+              <tr>
+                <td id="c1">&nbsp</td>
+                <td id="c2">&nbsp</td>
+                <td id="c3">&nbsp</td>
+              </tr>
+              <tr>
+                <td id="c4">&nbsp</td>
+                <td id="c5">&nbsp</td>
+                <td id="c6">&nbsp</td>
+              </tr>
+              <tr>
+                <td id="c7">&nbsp</td>
+                <td id="c8">&nbsp</td>
+                <td id="c9">&nbsp</td>
+              </tr>
+            </tbody>
+          </table>
+        </h1>
+        <h3 id="preguntaInicial">¿Con que fichas quieres jugar?
+          <h3/>
+          </br>
+          <div class="row">
+            <div class="col-6" id="ceros">
+              <button id="ceros" type="button" class="btn btn-info">
+                <h3>O</h3>
+              </button>
             </div>
-          </div>          
-          <div class="col-1 col-sm-1 col-md-2 col-lg-3 col-xl-3"></div>
-        </div>
+            <div class="col-6" id="equis">
+              <button type="button" class="btn btn-info">
+                <h3>X</h3>
+              </button>
+            </div>
+          </div>
+      </div>
+      <div class="col-1 col-sm-1 col-md-2 col-lg-3 col-xl-3"></div>
+    </div>
   </div>
-  
+
   <!-- jQuery first, then Bootstrap JS. -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
     crossorigin="anonymous"></script>
