@@ -1,4 +1,4 @@
-# JavaScript Project: Tic Tac Toe Game
+# JavaScript Project: Tic Tac Toe Game for freecodecamp.org
 
 ### Build a tic tac toe game
 
