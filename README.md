@@ -2,6 +2,8 @@
 
 ### Build a tic tac toe game
 
+Try it on Codepen: https://codepen.io/Romugar/pen/MpPeZg
+
 #### Objective
 
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/KzXQgy/
